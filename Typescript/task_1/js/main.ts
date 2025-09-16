@@ -35,16 +35,16 @@ const director1: Directors = {
 console.log(director1);
 
 
-// // Task 3
-// interface printTeacherFunction {
-//     (firstName: string, lastName: string): string
-// }
+// Task 3
+interface printTeacherFunction {
+    (firstName: string, lastName: string): string
+}
 
-// const printTeacher: printTeacherFunction = (firstName: string, lastName: string) => {
-//     return (firstName[0].toUpperCase() + ". " + lastName)
-// }
+const printTeacher: printTeacherFunction = (firstName: string, lastName: string) => {
+    return (firstName[0].toUpperCase() + ". " + lastName)
+}
 
-// console.log(printTeacher("John", "Doe"))
+console.log(printTeacher("John", "Doe"))
 
 
 // // Task 4
