@@ -2,16 +2,16 @@
   "name": "typescript_dependencies",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
-  "mode": "development",
   "scripts": {
     "start-dev": "webpack-dev-server",
     "build": "webpack",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.18.10",
     "@babel/preset-typescript": "^7.22.15",
@@ -30,5 +30,6 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "mode": "development"
 }
